@@ -1,0 +1,12 @@
+AppBundle\Model\Api\Rate:
+    exclusion_policy: ALL
+    properties:
+        no:
+            serialized_name: no
+            type: string
+        effectiveDate:
+            serialized_name: effectiveDate
+            type: DateTime<'Y-m-d'>
+        mid:
+            serialized_name: mid
+            type: float

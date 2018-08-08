@@ -1,0 +1,7 @@
+main_form:
+    path:     /
+    defaults: { _controller: AppBundle:Main:index}
+
+main_convert:
+    path:     /convert
+    defaults: { _controller: AppBundle:Main:convert}

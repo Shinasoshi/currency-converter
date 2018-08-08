@@ -1,0 +1,15 @@
+AppBundle\Model\Api\ExchangeRatesSeries:
+    exclusion_policy: ALL
+    properties:
+        table:
+            serialized_name: table
+            type: string
+        currency:
+            serialized_name: currency
+            type: string
+        code:
+            serialized_name: code
+            type: string
+        rates:
+            serialized_name: rates
+            type: Doctrine\Common\Collections\ArrayCollection<AppBundle\Model\Api\Rate>
