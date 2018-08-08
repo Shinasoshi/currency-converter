@@ -1,8 +1,8 @@
 {
-    "name": "symfony/framework-standard-edition",
+    "name": "shinasoshi/currency-converter",
     "license": "MIT",
     "type": "project",
-    "description": "The \"Symfony Standard Edition\" distribution",
+    "description": "",
     "autoload": {
         "psr-4": {
             "AppBundle\\": "src/AppBundle"
@@ -68,5 +68,19 @@
         "branch-alias": {
             "dev-master": "3.4-dev"
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "shinasoshi/currency-converter",
+                "version": "dev",
+                "source": {
+                    "url": "git://github.com/shinasoshi/currency-converter.git",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        }
+    ]
 }
